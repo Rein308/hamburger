@@ -1,0 +1,43 @@
+:root {
+    --menu-bar-width: 60px;
+    --menu-bar-height: 10px;
+    --background-color: #D84282;
+}
+#menu {
+    width: var(--menu-bar-width);
+    height: var(--menu-bar-height);
+    background-color:var(--background-color);
+    content: "";
+    position: relative;
+    cursor: pointer;
+    display: block;
+    flex-direction: column;
+    margin: 200px;
+
+}
+#menu:before {
+    width: var(--menu-bar-width);
+    height: var(--menu-bar-height);
+    background-color:var(--background-color);
+    content: "";
+    position: absolute;
+    display: block;
+
+}
+#menu::before{
+    left: 0;
+    top: 20px;
+}
+#menu:after {
+    width: var(--menu-bar-width);
+    height: var(--menu-bar-height);
+    background-color:var(--background-color);
+    content: "";
+    position: absolute;
+    display: block;
+
+}
+#menu::after{
+    left: 0;
+    bottom: 20px;
+}
