@@ -41,18 +41,4 @@
     left: 0;
     top: 20px;
 }
-#menu:hover {
-    background-color: greenyellow;
-    transition: all 2s ease-in-out;
-    transform: scale(2);
-}
-#menu:hover:after {
-    background-color: greenyellow;
-    transition: all 1s ease-in-out;
-    transform: translateY(-20px) rotate(-135deg);
-}
-#menu:hover:before {
-    background-color: greenyellow;
-    transition: all 1s ease-in-out;
-    transform: translateY(20px) rotate(135deg);
-}
+
